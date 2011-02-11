@@ -1,0 +1,11 @@
+README for RubyPractice
+
+The files are used as exercises in a course and can be run from wihtin each directory. The Rakefile and rspec_config.rb files keep everything set up for you do this.
+
+If you want to run the files without this, then you'll need to set the path to the file with this require statement at the top of the spec file:
+
+require "#{File.dirname(__FILE__)}/my_class"
+
+Where 'my_class' is the name of the class needed. If you don't have this, then rspec won't find your file. 
+
+I should also point out that the colour settings will be missing if you do this.
